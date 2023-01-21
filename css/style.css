@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(10, 173, 228);
+}
+
+.images {
+    /* width: 10rem; */
+    width: 4rem;
+    padding: 20px;
+    transition: 2s;
+}
+
+.divForForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.divMarginAuto {
+    margin: auto;
+}
+
+.divForH2 {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    margin: auto;
+    flex-basis: 100%;
+    font-size: 3rem;
+}
+
+.centerText {
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    width: 50%;
+}
+
+.namePrompt {
+    position: fixed;
+    width: 100rem;
+    height: 100rem;
+}
